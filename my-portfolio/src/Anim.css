@@ -1,0 +1,56 @@
+
+.slide-up {
+    animation: slideUp 1s ease-out forwards;
+}
+
+
+.slide-right{
+    animation: slideRight 1s ease-out forwards;
+}
+
+.shake {
+    animation: shake 2.5s ease-in-out infinite;
+}
+
+
+  
+  /* Slide up animation */
+  @keyframes slideUp {
+    0% {
+        transform: translateY(100%); /* Start below the view */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Slide up to the normal position */
+        opacity: 1;
+    }
+  }
+    
+
+
+/* Slide right animation */
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%); /* Start off to the left */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* Slide into its normal position */
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateY(0); /* Initial and end position */
+    }
+    25% {
+        transform: translateY(-5px); /* Move up */
+    }
+    75% {
+        transform: translateY(5px); /* Move down */
+    }
+}
+
+
+
