@@ -92,7 +92,7 @@ function Home() {
           I am a versatile developer with expertise in Android, frontend, backend, and DevOps. With a passion for building seamless and efficient applications, I create intuitive user interfaces, robust backend systems, and implement scalable DevOps practices to ensure smooth deployment and continuous integration. I thrive on solving complex problems and delivering high-quality solutions across the entire software development lifecycle.</p>
           <a href="https://shorturl.at/RX0Vo">My Resume</a>
         </div>
-        <img className='slide-right' src="me2.jpg"></img>
+        <img className='slide-right' src="https://newbucket-18072022.s3.ap-south-1.amazonaws.com/IMG_2136.jpg"></img>
         </div>
 
         <a href='#about' className='shake' >
@@ -109,7 +109,7 @@ function Home() {
       
 
       <section className="about flex-box" id='about'>
-        <img src="me.jpg"/>
+        <img src="https://newbucket-18072022.s3.ap-south-1.amazonaws.com/IMG_2136.jpg"/>
         <div className='about-right'>
         <div className='hi-head-cont'>
         <h2>Hi!</h2>
