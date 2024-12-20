@@ -1,4 +1,6 @@
 import logo from '../logo.svg';
+import React from 'react';
+
 import '../App.css';
 import { Helmet } from 'react-helmet';
 
@@ -26,8 +28,8 @@ function About() {
         <h1>About Me</h1>
       </section>
 
-      <section className='about flex-box'>
-      <img src="https://cdn.gadgets360.com/content/assets/entertainment/shah-rukh-khan-poster.jpg"/>
+      {/* <section className='about flex-box'>
+      <img src="me2.jpg"/>
       <div className='about-right'>
         <h1>Joraj J R</h1>
         <h2>Android Developer</h2>
@@ -35,7 +37,7 @@ function About() {
           a passion for crafting seamless user experiences. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences.
         </p>
       </div>
-      </section>
+      </section> */}
 
       <section className='education'>
         <h1>Educational Qualifications</h1>
@@ -149,38 +151,39 @@ function About() {
             A passionate programmer, graduated from Kerala University.
           </p>
           <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
+          <a href='https://fb.com/myselfjoraj'><i class="fa-brands fa-facebook-f"></i></a>
+            <a href='https://x.com/myselfjoraj'><i class="fa-brands fa-twitter"></i></a>
+            <a href='https://instagram.com/myselfjoraj'><i class="fa-brands fa-instagram"></i></a>
+            <a href='https://linkedin.com/in/myselfjoraj'><i class="fa-brands fa-linkedin"></i></a>
+            <a href='https://github.com/myselfjoraj'><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
         <div class="footer-col">
           <h4>Info</h4>
           <ul class="links">
-            <li><a href="#">Home Page</a></li>
-            <li><a href="#">About Page</a></li>
-            <li><a href="#">Vision Page</a></li>
-            <li><a href="#">Projects Page</a></li>
-            <li><a href="#">Contact Page</a></li>
+            <li><a href="/home">Home Page</a></li>
+            <li><a href="/about">About Page</a></li>
+            <li><a href="http://localhost:4200/vision">Vision Page</a></li>
+            <li><a href="http://localhost:4200/projects">Projects Page</a></li>
+            <li><a href="/contact">Contact Page</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Projects</h4>
           <ul class="links">
-            <li><a href="#">Cloud Box Android App</a></li>
-            <li><a href="#">React Safe Android App</a></li>
-            <li><a href="#">Exa Learn Web App</a></li>
-            <li><a href="#">Code Next Web App</a></li>
+            <li><a href="https://github.com/myselfjoraj/CloudBox">Cloud Box Android App</a></li>
+            <li><a href="https://github.com/myselfjoraj/ReactSafe">React Safe Android App</a></li>
+            <li><a href="https://github.com/myselfjoraj/ExaLearn">Exa Learn Web App</a></li>
+            <li><a href="https://github.com/myselfjoraj/Codenest-Flask">Code Next Web App</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
           <ul class="links">
-            <li><a href="#">+91 8086786159</a></li>
-            <li><a href="#">myselfjoraj@proton.me</a></li>
-            <li><a href="#">linkedin.com/in/myselfjoraj</a></li>
-            <li><a href="#">github.com/myselfjoraj</a></li>
+            <li><a href="tel:918086786159">Mobile : +91 8086786159</a></li>
+            <li><a href="mailto:myselfjoraj@proton.me">myselfjoraj@proton.me</a></li>
+            <li><a href="https://linkedin.com/in/myselfjoraj">linkedin.com/in/myselfjoraj</a></li>
+            <li><a href="https://github.com/myselfjoraj">github.com/myselfjoraj</a></li>
           </ul>
         </div>
         

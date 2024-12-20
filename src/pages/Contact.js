@@ -1,4 +1,6 @@
 import logo from '../logo.svg';
+import React from 'react';
+
 import '../App.css';
 import { Helmet } from 'react-helmet';
 
@@ -31,8 +33,7 @@ function Contact() {
         <div className='top-holder'>
              <div className='touch'>
                 <h1>Get In Touch</h1>
-                <p>We'd love to hear from you.We'd love to hear from you.We'd love to hear from you.
-                    We'd love to hear from you.We'd love to hear from you.We'd love to hear from you.We'd love to hear from you. </p>
+                <p>Feel free to reach out! Whether you have a question, project idea, or collaboration in mind, I’d love to connect and discuss how we can work together.</p>
              </div>
 
              <div className='element-address'>
@@ -48,7 +49,7 @@ function Contact() {
                     <i class="fa-solid fa-phone"></i>
                 </div>
                 <h1>My Contact</h1>
-                <span>+91 1234567890<br></br>myselfjoraj@proton.me</span>
+                <span>+91 8086786159<br></br>myselfjoraj@proton.me</span>
              </div>
         </div>
 
@@ -57,11 +58,11 @@ function Contact() {
         </div>
 
         <div className='social-contact'>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
+            <a href='https://fb.com/myselfjoraj'><i class="fa-brands fa-facebook-f"></i></a>
+            <a href='https://x.com/myselfjoraj'><i class="fa-brands fa-twitter"></i></a>
+            <a href='https://instagram.com/myselfjoraj'><i class="fa-brands fa-instagram"></i></a>
+            <a href='https://linkedin.com/in/myselfjoraj'><i class="fa-brands fa-linkedin"></i></a>
+            <a href='https://github.com/myselfjoraj'><i class="fa-brands fa-github"></i></a>
         </div>
 
         <div className='divider-holder flex-box'>
@@ -124,38 +125,39 @@ function Contact() {
             A passionate programmer, graduated from Kerala University.
           </p>
           <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
+          <a href='https://fb.com/myselfjoraj'><i class="fa-brands fa-facebook-f"></i></a>
+            <a href='https://x.com/myselfjoraj'><i class="fa-brands fa-twitter"></i></a>
+            <a href='https://instagram.com/myselfjoraj'><i class="fa-brands fa-instagram"></i></a>
+            <a href='https://linkedin.com/in/myselfjoraj'><i class="fa-brands fa-linkedin"></i></a>
+            <a href='https://github.com/myselfjoraj'><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
         <div class="footer-col">
           <h4>Info</h4>
           <ul class="links">
-            <li><a href="#">Home Page</a></li>
-            <li><a href="#">About Page</a></li>
-            <li><a href="#">Vision Page</a></li>
-            <li><a href="#">Projects Page</a></li>
-            <li><a href="#">Contact Page</a></li>
+            <li><a href="/home">Home Page</a></li>
+            <li><a href="/about">About Page</a></li>
+            <li><a href="http://localhost:4200/vision">Vision Page</a></li>
+            <li><a href="http://localhost:4200/projects">Projects Page</a></li>
+            <li><a href="/contact">Contact Page</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Projects</h4>
           <ul class="links">
-            <li><a href="#">Cloud Box Android App</a></li>
-            <li><a href="#">React Safe Android App</a></li>
-            <li><a href="#">Exa Learn Web App</a></li>
-            <li><a href="#">Code Next Web App</a></li>
+            <li><a href="https://github.com/myselfjoraj/CloudBox">Cloud Box Android App</a></li>
+            <li><a href="https://github.com/myselfjoraj/ReactSafe">React Safe Android App</a></li>
+            <li><a href="https://github.com/myselfjoraj/ExaLearn">Exa Learn Web App</a></li>
+            <li><a href="https://github.com/myselfjoraj/Codenest-Flask">Code Next Web App</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
           <ul class="links">
-            <li><a href="#">+918086786159</a></li>
-            <li><a href="#">myselfjoraj@proton.me</a></li>
-            <li><a href="#">linkedin.com/in/myselfjoraj</a></li>
-            <li><a href="#">github.com/myselfjoraj</a></li>
+            <li><a href="tel:918086786159">Mobile : +91 8086786159</a></li>
+            <li><a href="mailto:myselfjoraj@proton.me">myselfjoraj@proton.me</a></li>
+            <li><a href="https://linkedin.com/in/myselfjoraj">linkedin.com/in/myselfjoraj</a></li>
+            <li><a href="https://github.com/myselfjoraj">github.com/myselfjoraj</a></li>
           </ul>
         </div>
         

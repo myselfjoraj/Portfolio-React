@@ -281,12 +281,27 @@ a{
 
 .progress-bar-border{
   height: 10px;
-  width: 80vh;
+  width: 70vh;
   border: 1px solid var(--main-color);
 }
-.progress-bar{
+.progress-bar1{
+  height: 10px;
+  width: 80%;
+  background-color: var(--main-color);
+}
+.progress-bar2{
   height: 10px;
   width: 90%;
+  background-color: var(--main-color);
+}
+.progress-bar3{
+  height: 10px;
+  width: 68%;
+  background-color: var(--main-color);
+}
+.progress-bar4{
+  height: 10px;
+  width: 88%;
   background-color: var(--main-color);
 }
 

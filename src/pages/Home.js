@@ -1,10 +1,10 @@
 import logo from '../logo.svg';
 import '../App.css';
+
 import '../Anim.css';
 import { Helmet } from 'react-helmet';
 import bgvideo from '../static/bgvideo.mp4'
 import React, { useState, useEffect,useRef } from 'react';
-import jrj from '../joraj.jpg';
 
 
 function Home() {
@@ -88,10 +88,11 @@ function Home() {
         <div className="l-item">
           <h1 className="text-slide-up-anim">I'm JORAJ J R</h1>
           <h2>I'm a <span>{currentText}</span></h2>
-          <p >I'm dedicated in building intuitive and high-performance mobile applications. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences.</p>
-          <a href="#">My Resume</a>
+          <p >
+          I am a versatile developer with expertise in Android, frontend, backend, and DevOps. With a passion for building seamless and efficient applications, I create intuitive user interfaces, robust backend systems, and implement scalable DevOps practices to ensure smooth deployment and continuous integration. I thrive on solving complex problems and delivering high-quality solutions across the entire software development lifecycle.</p>
+          <a href="https://shorturl.at/RX0Vo">My Resume</a>
         </div>
-        <img className='slide-right' src="https://cdn.gadgets360.com/content/assets/entertainment/shah-rukh-khan-poster.jpg"></img>
+        <img className='slide-right' src="me2.jpg"></img>
         </div>
 
         <a href='#about' className='shake' >
@@ -108,14 +109,14 @@ function Home() {
       
 
       <section className="about flex-box" id='about'>
-        <img src="https://cdn.gadgets360.com/content/assets/entertainment/shah-rukh-khan-poster.jpg"/>
+        <img src="me.jpg"/>
         <div className='about-right'>
         <div className='hi-head-cont'>
         <h2>Hi!</h2>
         <div className="hi-head"></div>
         </div>
           <h2>I'm a <span>{currentText}</span></h2>
-          <p>I'm dedicated in building intuitive and high-performance mobile applications. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences.</p>
+          <p>I'm a skilled developer specializing in Android, frontend, backend, and DevOps. I build user-friendly apps, scalable systems, and streamline deployment processes to deliver high-quality, efficient solutions.</p>
 
           <div className='about-item-container'>
 
@@ -124,7 +125,7 @@ function Home() {
               <p>Joraj J R</p>
 
               <h4>Phone</h4>
-              <p>+91 1234567890</p>
+              <p>+91 8086786159</p>
             </div>
 
             <div className='about-item-row'>
@@ -137,7 +138,7 @@ function Home() {
 
             <div className='about-item-row'>
               <h4>Age</h4>
-              <p>19</p>
+              <p>22</p>
 
               <h4>From</h4>
               <p>Trivandrum</p>
@@ -147,8 +148,8 @@ function Home() {
           </div>
 
           <div className='buttons-flex'>
-            <a href="#">My Resume</a>
-            <a href="#">Contact Me</a>
+            <a href="https://shorturl.at/RX0Vo">My Resume</a>
+            <a href="/contact">Contact Me</a>
           </div>
           
         </div>
@@ -161,37 +162,37 @@ function Home() {
         <div className='skill-item-row'>
           <div className='skill-item'>
             <h4>Web Developement</h4>
-            <span>98%</span>
+            <span>80%</span>
           </div>
           <div className='progress-bar-border'>
-            <div className='progress-bar'></div>
+            <div className='progress-bar1'></div>
           </div>
 
           <div className='skill-item'>
-            <h4>Web Developement</h4>
-            <span>98%</span>
+            <h4>Android Developement</h4>
+            <span>90%</span>
           </div>
           <div className='progress-bar-border'>
-          <div className='progress-bar'></div>
+          <div className='progress-bar2'></div>
           </div>
     
         </div>
 
         <div className='skill-item-row'>
           <div className='skill-item'>
-            <h4>Web Developement</h4>
-            <span>98%</span>
+            <h4>DevOps Developement</h4>
+            <span>68%</span>
           </div>
           <div className='progress-bar-border'>
-            <div className='progress-bar'></div>
+            <div className='progress-bar3'></div>
           </div>
 
           <div className='skill-item'>
-            <h4>Web Developement</h4>
-            <span>98%</span>
+            <h4>Wordpress Developement</h4>
+            <span>88%</span>
           </div>
           <div className='progress-bar-border'>
-          <div className='progress-bar'></div>
+          <div className='progress-bar4'></div>
           </div>
         </div>
     
@@ -206,38 +207,39 @@ function Home() {
             A passionate programmer, graduated from Kerala University.
           </p>
           <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
+          <a href='https://fb.com/myselfjoraj'><i class="fa-brands fa-facebook-f"></i></a>
+            <a href='https://x.com/myselfjoraj'><i class="fa-brands fa-twitter"></i></a>
+            <a href='https://instagram.com/myselfjoraj'><i class="fa-brands fa-instagram"></i></a>
+            <a href='https://linkedin.com/in/myselfjoraj'><i class="fa-brands fa-linkedin"></i></a>
+            <a href='https://github.com/myselfjoraj'><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
         <div class="footer-col">
           <h4>Info</h4>
           <ul class="links">
-            <li><a href="#">Home Page</a></li>
-            <li><a href="#">About Page</a></li>
-            <li><a href="#">Vision Page</a></li>
-            <li><a href="#">Projects Page</a></li>
-            <li><a href="#">Contact Page</a></li>
+            <li><a href="/home">Home Page</a></li>
+            <li><a href="/about">About Page</a></li>
+            <li><a href="http://localhost:4200/vision">Vision Page</a></li>
+            <li><a href="http://localhost:4200/projects">Projects Page</a></li>
+            <li><a href="/contact">Contact Page</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Projects</h4>
           <ul class="links">
-            <li><a href="#">Cloud Box Android App</a></li>
-            <li><a href="#">React Safe Android App</a></li>
-            <li><a href="#">Exa Learn Web App</a></li>
-            <li><a href="#">Code Next Web App</a></li>
+            <li><a href="https://github.com/myselfjoraj/CloudBox">Cloud Box Android App</a></li>
+            <li><a href="https://github.com/myselfjoraj/ReactSafe">React Safe Android App</a></li>
+            <li><a href="https://github.com/myselfjoraj/ExaLearn">Exa Learn Web App</a></li>
+            <li><a href="https://github.com/myselfjoraj/Codenest-Flask">Code Next Web App</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
           <ul class="links">
-            <li><a href="#">Mobile : +91 8086786159</a></li>
-            <li><a href="#">myselfjoraj@proton.me</a></li>
-            <li><a href="#">linkedin.com/in/myselfjoraj</a></li>
-            <li><a href="#">github.com/myselfjoraj</a></li>
+            <li><a href="tel:918086786159">Mobile : +91 8086786159</a></li>
+            <li><a href="mailto:myselfjoraj@proton.me">myselfjoraj@proton.me</a></li>
+            <li><a href="https://linkedin.com/in/myselfjoraj">linkedin.com/in/myselfjoraj</a></li>
+            <li><a href="https://github.com/myselfjoraj">github.com/myselfjoraj</a></li>
           </ul>
         </div>
         
